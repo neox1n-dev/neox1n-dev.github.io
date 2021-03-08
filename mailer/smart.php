@@ -15,7 +15,7 @@ $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
 $mail->Username = 'vladislavpetrik15@gmail.com';                 // Наш логин
 $mail->Password = 'Ramzes5236890';                           // Наш пароль от ящика
-$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;                            // Enable TLS encryption, `ssl` also accepted
+$mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 465;                                    // TCP port to connect to
  
 $mail->setFrom('globell924@gmail.com', 'Chapelkaa');   // От кого письмо 
